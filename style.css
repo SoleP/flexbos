@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    color: white;
+    background-color:  rgb(2, 121, 190);
+    padding: 20px 0;
+
+    display: flex; /*los pone en linea*/
+    justify-content: center; /*maneja horizontalente*/
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    border: 1px solid #fff;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: black;
+    background-color: rgb(175, 211, 233);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between; /*Horizontal*/
+    align-items: center; /*Vertical*/
+}
+
+
+/*Productos*/
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.first-item { /*-Sirve mas para MOBILE- Mueve lo items mas a la izquierda o mas a la derecha*/
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: cornflowerblue;
+    height: 200px;
+    /*define el ancho de los elementos 
+    dentro de su contenedor*/    
+    flex: 1; 
+}
+
+.footer-two {
+    flex: 2;
+}
